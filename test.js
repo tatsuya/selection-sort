@@ -3,7 +3,7 @@
 var assert = require('assert');
 var sort = require('./');
 
-describe('insertion-sort', function() {
+describe('selection-sort', function() {
   it('should work with empty arrays', function() {
     assert.deepEqual(sort([]), []);
   });
